@@ -1,4 +1,4 @@
---tworzenie tabeli Pilkarz (creation of the table Football player)
+--tworzenie tabeli Pilkarz (creation of a football player table)
 
 CREATE TABLE PILKARZ
 (ID NUMBER, 
@@ -8,7 +8,7 @@ DATA_URODZENIA DATE,
 PENSJA NUMBER
 ) ;
 
---tworzenie tabeli Mecz (creation of a table Match)
+--tworzenie tabeli Mecz (creation of a match table)
 
 CREATE TABLE MECZ
 (ID_MECZ NUMBER, 
@@ -17,7 +17,7 @@ WYNIK_GOSPODARZA NUMBER,
 WYNIK_GOSCIA NUMBER
 ) ;
 
--- tworzenie tabeli Druzyna
+-- tworzenie tabeli Druzyna (creation of a team table)
 
 CREATE TABLE DRUZYNA
 (ID_DRUZYNY NUMBER, 
@@ -28,7 +28,7 @@ KRAJ VARCHAR2(30)
 ) ;
 
 
--- tworzenie tabeli Miejscowosc
+-- tworzenie tabeli Miejscowosc (creation of a locality table)
 
 CREATE TABLE MIEJSCOWOSC
 (ID_MIEJSCOWOSC NUMBER,
@@ -36,7 +36,7 @@ Nazwa_MIEJSCOWOSCI VARCHAR2(60),
 NAZWA_STADIONU VARCHAR2(60),
 KRAJ VARCHAR2(30),
 ) ;
--- tworzenie tabeli Gra
+-- tworzenie tabeli Gra (creation of a game table)
 CREATE TABLE GRA
 (ID_PILKARZA NUMBER,
 ID_MECZ NUMBER,
