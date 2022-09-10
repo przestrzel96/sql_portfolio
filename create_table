@@ -1,6 +1,29 @@
 --tworzenie tabeli Pilkarz (creation of the table Football player)
-
+CREATE TABLE PILKARZ
+																   (ID NUMBER, 
+																	IMIE VARCHAR2(30), 
+																	NAZWISKO VARCHAR2(60),  
+																	DATA_URODZENIA DATE, 
+																	PENSJA NUMBER
+																	) ;
 --tworzenie tabeli Mecz (creation of a table Match)
+CREATE TABLE MECZ
+																   (ID_MECZ NUMBER, 
+																	DATA_ROZEGRANIA DATE, 
+                                  Wynik_Gospodarza NUMBER, 
+																	Wynik_Goscia NUMBER
+																	) ;
+-- tworzenie tabeli Druzyna
+CREATE TABLE DRUZYNA
+																   (ID_DRUZYNY NUMBER, 
+																	NAZWA_DRUZYNY VARCHAR2(60),
+                                  Adres_Klubu VARCHAR2(60), 
+																	Liga VARCHAR2(30)
+																	) ;
 
-
-
+-- tworzenie tabeli Miejscowosc
+CREATE TABLE MIEJSCOWOSC
+																   (ID_MIEJSCOWOSC NUMBER,
+                                   Nazwa_MIEJSCOWOSCI VARCHAR2(60),
+                                  Adres VARCHAR2(60)
+																	) ;
