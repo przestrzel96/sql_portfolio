@@ -40,3 +40,9 @@ ID_MECZ NUMBER,
 POZYCJA VARCHAR2(30),
 Liczba_Strzelonych_Bramek NUMBER
 ) ;
+
+-- wstawanie 20 rekordów do tabeli druzyna
+
+
+--zatwierdzenie polecenia insert
+commit;
