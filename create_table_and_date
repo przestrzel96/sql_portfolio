@@ -23,9 +23,10 @@ CREATE TABLE DRUZYNA
 (ID_DRUZYNY NUMBER, 
 NAZWA_DRUZYNY VARCHAR2(60),
 NAZWA_STADIONU VARCHAR2(60),
-LIGA VARCHAR2(30)
-KRAJ VARCHAR2(30),
+LIGA VARCHAR2(30),
+KRAJ VARCHAR2(30)
 ) ;
+
 
 -- tworzenie tabeli Miejscowosc
 
@@ -43,8 +44,20 @@ POZYCJA VARCHAR2(30),
 LICZBA_STRZELONYCH_BRAMEK NUMBER
 ) ;
 
--- wstawanie 10 rekordów do tabeli druzyna
+-- wstawanie 12 rekordów do tabeli druzyna (insert 12 records in the team table)
 
+Insert into DRUZYNA (ID_DRUZYNY,NAZWA_DRUZYNY,NAZWA_STADIONU,LIGA,KRAJ) values ('1','ARSENAL LONDYN','Emirates Stadium','PL','ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('2', 'Manchester City','City of Manchester Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('3', 'Tottenham Hotspur','Tottenham Hotspur Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('4', 'Brighton Hove Albion','Falmer Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('5', 'Chelsea Londyn','Stamford Bridge', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('6', 'Liverpool FC','Anfield', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('7', 'Manchester United','Old Trafford', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('8', 'FC Barcelona','Camp Nou', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('9', 'Real Madryt','Estadio Santiago Bernabeu', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('10', 'Atletico Madryt','Wanda Metropolitano', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('11', 'Bayern Monachium','Allianz Arena', 'B', 'DEU');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('12', 'Borussia Dortmund','Signal Iduna Park', 'B', 'DEU');
 
 --zatwierdzenie polecenia insert
 commit;
