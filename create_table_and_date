@@ -46,7 +46,7 @@ LICZBA_STRZELONYCH_BRAMEK NUMBER
 
 -- wstawanie 12 rekordów do tabeli druzyna (insert 12 records in the team table)
 
-Insert into DRUZYNA (ID_DRUZYNY,NAZWA_DRUZYNY,NAZWA_STADIONU,LIGA,KRAJ) values ('1','ARSENAL LONDYN','Emirates Stadium','PL','ENG');
+Insert into DRUZYNA (ID_DRUZYNY,NAZWA_DRUZYNY,NAZWA_STADIONU,LIGA,KRAJ) values ('1','Arsenal Londyn','Emirates Stadium','PL','ENG');
 Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('2', 'Manchester City','City of Manchester Stadium', 'PL', 'ENG');
 Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('3', 'Tottenham Hotspur','Tottenham Hotspur Stadium', 'PL', 'ENG');
 Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('4', 'Brighton Hove Albion','Falmer Stadium', 'PL', 'ENG');
