@@ -27,7 +27,6 @@ LIGA VARCHAR2(30),
 KRAJ VARCHAR2(30)
 ) ;
 
-
 -- tworzenie tabeli Miejscowosc (creation of a locality table)
 
 CREATE TABLE MIEJSCOWOSC
@@ -36,6 +35,7 @@ Nazwa_MIEJSCOWOSCI VARCHAR2(60),
 NAZWA_STADIONU VARCHAR2(60),
 KRAJ VARCHAR2(30),
 ) ;
+
 -- tworzenie tabeli Gra (creation of a game table)
 CREATE TABLE GRA
 (ID_PILKARZA NUMBER,
