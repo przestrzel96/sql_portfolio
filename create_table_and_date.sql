@@ -46,18 +46,18 @@ LICZBA_STRZELONYCH_BRAMEK NUMBER
 
 -- wstawanie 12 rekordów do tabeli druzyna (insert 12 records in the team table)
 
-Insert into DRUZYNA (ID_DRUZYNY,NAZWA_DRUZYNY,NAZWA_STADIONU,LIGA,KRAJ) values ('1','Arsenal Londyn','Emirates Stadium','PL','ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('2', 'Manchester City','City of Manchester Stadium', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('3', 'Tottenham Hotspur','Tottenham Hotspur Stadium', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('4', 'Brighton Hove Albion','Falmer Stadium', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('5', 'Chelsea Londyn','Stamford Bridge', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('6', 'Liverpool FC','Anfield', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('7', 'Manchester United','Old Trafford', 'PL', 'ENG');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('8', 'FC Barcelona','Camp Nou', 'LL', 'ESP');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('9', 'Real Madryt','Estadio Santiago Bernabeu', 'LL', 'ESP');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('10', 'Atletico Madryt','Wanda Metropolitano', 'LL', 'ESP');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('11', 'Bayern Monachium','Allianz Arena', 'B', 'DEU');
-Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values ('12', 'Borussia Dortmund','Signal Iduna Park', 'B', 'DEU');
+Insert into DRUZYNA (ID_DRUZYNY,NAZWA_DRUZYNY,NAZWA_STADIONU,LIGA,KRAJ) values (1,'Arsenal Londyn','Emirates Stadium','PL','ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (2, 'Manchester City','City of Manchester Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (3, 'Tottenham Hotspur','Tottenham Hotspur Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (4, 'Brighton Hove Albion','Falmer Stadium', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (5, 'Chelsea Londyn','Stamford Bridge', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (6, 'Liverpool FC','Anfield', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (7, 'Manchester United','Old Trafford', 'PL', 'ENG');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (8, 'FC Barcelona','Camp Nou', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (9, 'Real Madryt','Estadio Santiago Bernabeu', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (10, 'Atletico Madryt','Wanda Metropolitano', 'LL', 'ESP');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (11, 'Bayern Monachium','Allianz Arena', 'B', 'DEU');
+Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) values (12, 'Borussia Dortmund','Signal Iduna Park', 'B', 'DEU');
 
 --zatwierdzenie polecenia insert (approval of the command)
 commit;
