@@ -62,3 +62,16 @@ Insert into DRUZYNA (ID_DRUZYNY, NAZWA_DRUZYNY, NAZWA_STADIONU, LIGA, KRAJ) valu
 
 --zatwierdzenie polecenia insert (approval of the command)
 commit;
+--  wstawanie rekordów do tabeli pilkarz (insert records in a football player table)
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (1,'Bukayo','Saka',to_date('05/09/01','DD/MM/RR'),'500000',1);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (2,'Martin','Odegaard',to_date('17/12/98','DD/MM/RR'),'1000000',1);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (3,'Jack','Grealish',to_date('10/09/95','DD/MM/RR'),'2000000',2);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (4,'Riyad','Mahrez',to_date('10/09/95','DD/MM/RR'),'1000000',2);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (5,'Harry','Kane',to_date('28/07/93','DD/MM/RR'),'3000000',3);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (6,'Heung-min','Son',to_date('08/07/92','DD/MM/RR'),'1000000',3);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (7,'Danny','Welbeck',to_date('26/07/90','DD/MM/RR'),'400000',4);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (8,'Solly','March',to_date('20/07/94','DD/MM/RR'),'300000',4);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (9,'Christian','Pulisic',to_date('18/09/98','DD/MM/RR'),'1000000',5);
+Insert into PILKARZ (ID,IMIE,NAZWISKO,DATA_URODZENIA,PENSJA,ID_KLUBU) values (10,'Mason','Mount',to_date('18/09/98','DD/MM/RR'),'1200000',5);
+--zatwierdzenie polecenia insert (approval of the command)
+commit;
