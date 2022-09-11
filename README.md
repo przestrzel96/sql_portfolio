@@ -1,4 +1,4 @@
-# My sql portfolio
+# SQL
 Przykładowa baza danych zawierające informację o drużynach, piłkarzach, meczach. 
 (Sample database containing information on teams, players, matches.)
 
