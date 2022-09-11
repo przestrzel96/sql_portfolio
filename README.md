@@ -14,4 +14,4 @@ Przykładowa baza danych zawierające informację o drużynach, piłkarzach, mec
 * Jeden piłkarz gra w wielu meczach. 
 * W jednym meczu gra wielu piłkarzy. 
 * W jednym meczu grają dwie drużyny. 
-
+Pensje piłkarzy są wymyślone.
