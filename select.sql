@@ -1,3 +1,3 @@
--- Przykład 1 
-select imie, nazwisko, pensja, (select round(avg(pensja), 2) from pilkarz) srednia, pensja - (select round(avg(pensja), 2) from pilkarz) ROZNICA
-from pilkarz;
+-- Przykład 1 (Example 1)
+select IMIE, NAZWISKO, PENSJA, (select round(avg(PENSJA), 2) from PILKARZ) SREDNIA, ABS(PENSJA - (select round(avg(PENSJA), 2) from PILKARZ)) ROZNICA
+from PILKARZ;
